@@ -1,0 +1,7 @@
+@echo off 
+__pycache__/ 
+*.pyc 
+.venv/ 
+*.db 
+*.log 
+.agent_runner/ 
