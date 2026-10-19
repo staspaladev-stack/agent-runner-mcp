@@ -1,0 +1,7 @@
+name: echo
+title: Эхо
+description: Проверка раннера без модели и без токенов. Возвращает задачу.
+runtime: shell
+command: ["cmd", "/c", "echo", "{task}"]
+timeout_s: 30
+tags: [demo, no-llm]
